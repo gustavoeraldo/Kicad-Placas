@@ -1,0 +1,38 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:LM741 U1
+U 1 1 5D66C562
+P 4500 4950
+F 0 "U1" H 4844 4996 50  0000 L CNN
+F 1 "LM741" H 4844 4905 50  0000 L CNN
+F 2 "" H 4550 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 4650 5100 50  0001 C CNN
+	1    4500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM741 U2
+U 1 1 5D67321B
+P 5450 5000
+F 0 "U2" H 5794 5046 50  0000 L CNN
+F 1 "LM741" H 5794 4955 50  0000 L CNN
+F 2 "" H 5500 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 5600 5150 50  0001 C CNN
+	1    5450 5000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
